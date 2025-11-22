@@ -1,5 +1,5 @@
 //fetching the api url 
-async function fetchProducts() {
+export async function fetchProducts() {
     try {
         const response = await fetch("https://dummyjson.com/products"); //fetch api data
         // check for errors
@@ -22,8 +22,9 @@ async function fetchProducts() {
 // .then(res => res.json()) //convert response to js object
 // .then(console.log);
 //testing 
-fetchProducts().then(() => {
+
+ fetchProducts().then(() => {
     console.log("Got them");
 });
-export {};
-//# sourceMappingURL=apiService.js.map
+
+

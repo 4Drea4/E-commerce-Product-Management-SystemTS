@@ -16,7 +16,7 @@
   //fetching the api url 
  
   
-  async function fetchProducts(): Promise<apiProduct[]> {
+  async function fetchProducts(): Promise<apiProduct[]> {// promise to give an array of products from the api
     try{
         const response = await fetch("https://dummyjson.com/products");//fetch api data
         // check for errors
@@ -40,8 +40,8 @@
   //fetch is promise based either going to reject or resolve so Ill add a then 
     // .then(res => res.json()) //convert response to js object
     // .then(console.log);
-  //testing 
-  fetchProducts().then(() => {
-    console.log("Got them");
-  }
-);
+//   //testing 
+//   fetchProducts().then(() => {
+//     console.log("Got them");
+//   }
+// );

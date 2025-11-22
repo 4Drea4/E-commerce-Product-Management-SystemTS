@@ -29,23 +29,27 @@ export class Product{
         this.images = apiData.images;
 
     }
-//     console.log(product);
-//     //method 
+
 //     //displaydetails (id)
-//     //fetch
-//     //using async on the method used in api Service for the interface apiProduct 
-// fetch displayDetails() {
+
+displayDetails(): string {
+    return `
+    Product ID: ${this.id}
+    Product Name: ${this.title}
+    Product Description: ${this.description}
+    Category: ${this.category}
+    Price: ${this.price}
+    Discount: ${this.discountPercentage}
+    Review Rating: ${this.rating}
+    In stock: ${this.stock}
+    Company Brand:${this.brand}
+   Thumbnail:${this.thumbnail}
+    Picture: ${this.images}
+    `
+}
 
 
 //     return 
 }
 
-
-
-  
-
-// //call discount percentage 
 // getPriceWithDiscount()
-
-// //call it outside the template
-// //let 
