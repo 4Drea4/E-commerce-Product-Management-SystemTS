@@ -11,5 +11,12 @@
     brand: string;
     thumbnail:string;
     images:string[];
+
   }
-  export const fetchApiProducts = (product : object): Promise<
+  //fetching the api url 
+  fetch('https://dummyjson.com/products')
+
+  //fetch is promise based either going to reject or resolve so Ill add a then 
+    .then(res => res.json())
+    .then(console.log);
+    

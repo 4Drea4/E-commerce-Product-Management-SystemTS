@@ -1,4 +1,4 @@
-import { apiProduct } from "../services/apiService.js" 
+import { type apiProduct } from "../services/apiService.js" 
 
 //create the product class where Im storing 
 export class Product{
@@ -14,7 +14,7 @@ export class Product{
     thumbnail:string;
     images:string[];
 
-    //constructor this.id = api.id giving shape to the product class
+    //constructor this.id = api.id giving shape of the info of the product class
     constructor(apiData : apiProduct) {
         this.id = apiData.id;
         this.title = apiData.title ;
@@ -29,16 +29,23 @@ export class Product{
         this.images = apiData.images;
 
     }
+//     console.log(product);
+//     //method 
+//     //displaydetails (id)
+//     //fetch
+//     //using async on the method used in api Service for the interface apiProduct 
+// fetch displayDetails() {
 
-    //method 
-    //displaydetails (id)
-    //fetch
-  }
-//call on the method used in api Service for the interface apiProduct 
-displayDetails() 
 
-//call discount percentage 
-getPriceWithDiscount()
+//     return 
+}
 
-//call it outside the template
-//let 
+
+
+  
+
+// //call discount percentage 
+// getPriceWithDiscount()
+
+// //call it outside the template
+// //let 
