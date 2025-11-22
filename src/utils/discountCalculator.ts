@@ -11,19 +11,19 @@ export function calculateDiscount(product: Product):number { //take in a product
 }
 
 
-//testing to make sure it return discount 
+// //testing to make sure it return discount 
 
-async function testDiscount(){
+// async function testDiscount(){
     
-    //getting data from the api 
-        const apiProducts = await fetchProducts();
-    // new instance
-        const testProduct = new Product(apiProducts[0]!);
-    //test calculateDiscount method
-        const discountPrice = calculateDiscount(testProduct);
+//     //getting data from the api 
+//         const apiProducts = await fetchProducts();
+//     // new instance
+//         const testProduct = new Product(apiProducts[0]!);
+//     //test calculateDiscount method
+//         const discountPrice = calculateDiscount(testProduct);
 
     
-    console.log("Discount amount of price: ",discountPrice);
+//     console.log("Discount amount of price: ",discountPrice);
 
-};
-testDiscount();
+// };
+// testDiscount();
