@@ -15,6 +15,8 @@ Using HTML,CSS, Javascript/ Typescript and an external API, I built an E-Commerc
 - I implemented typescript and it made understanding my project that much easier. It helps set expectations of input and outputs. Utilizing object oriented programming helped me store product data, transform raw data, and do things like calculate prices / discounts.
 
 -The challenges you encountered and how you overcame them.
+I faced several challenges as I was still getting the hang of typescript. Some of those issues included not getting outputs I desired when testing, and thinking something was wrong with my code despite it being a similiarly written method as another file that worked fine. This caused me on a few occaisions to go in fixing perfectly working code because I thought there was a bug somewhere because things were not outputting as expected just to later realize there was a calling or compiling issue. At the same time this made me be extremely careful and gave me more practice in debugging. 
+
 -How you handled asynchronous operations and error management.
 
 
@@ -25,4 +27,5 @@ Using HTML,CSS, Javascript/ Typescript and an external API, I built an E-Commerc
 3. [Catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 4. [OOP](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming)
 5. [Type Errors](https://stackoverflow.com/questions/56516615/how-to-fix-typeerror-fetchproducts-is-not-a-function)
-6. 
+6. [Creating an innstance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+7. 

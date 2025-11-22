@@ -18,12 +18,4 @@ export async function fetchProducts() {
         throw error;
     }
 }
-//fetch is promise based either going to reject or resolve so Ill add a then 
-// .then(res => res.json()) //convert response to js object
-// .then(console.log);
-//   //testing 
-//   fetchProducts().then(() => {
-//     console.log("Got them");
-//   }
-// );
 //# sourceMappingURL=apiService.js.map
