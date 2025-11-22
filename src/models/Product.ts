@@ -49,7 +49,12 @@ displayDetails(): string {
 }
 
 
-//     return 
+
+getPriceWithDiscount(): number {
+   let discount = this.price * (this.discountPercentage /100);
+   const finalPrice = this.price - discount ;
+    return finalPrice
 }
 
-// getPriceWithDiscount()
+//     return 
+}
