@@ -11,4 +11,5 @@ export interface apiProduct {
     thumbnail: string;
     images: string[];
 }
+export declare function fetchProducts(): Promise<apiProduct[]>;
 //# sourceMappingURL=apiService.d.ts.map

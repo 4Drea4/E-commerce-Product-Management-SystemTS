@@ -16,7 +16,7 @@
   //fetching the api url 
  
   
-  async function fetchProducts(): Promise<apiProduct[]> {// promise to give an array of products from the api
+  export async function fetchProducts(): Promise<apiProduct[]> {// promise to give an array of products from the api
     try{
         const response = await fetch("https://dummyjson.com/products");//fetch api data
         // check for errors

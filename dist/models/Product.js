@@ -26,9 +26,26 @@ export class Product {
         this.thumbnail = apiData.thumbnail;
         this.images = apiData.images;
     }
+    //     //displaydetails (id)
+    displayDetails() {
+        return `
+    Product ID: ${this.id}
+    Product Name: ${this.title}
+    Product Description: ${this.description}
+    Category: ${this.category}
+    Price: ${this.price}
+    Discount: ${this.discountPercentage}
+    Review Rating: ${this.rating}
+    In stock: ${this.stock}
+    Company Brand:${this.brand}
+   Thumbnail:${this.thumbnail}
+    Picture: ${this.images}
+    `;
+    }
+    getPriceWithDiscount() {
+        let discount = this.price * (this.discountPercentage / 100);
+        const finalPrice = this.price - discount;
+        return finalPrice;
+    }
 }
-// //call discount percentage 
-// getPriceWithDiscount()
-// //call it outside the template
-// //let 
 //# sourceMappingURL=Product.js.map
