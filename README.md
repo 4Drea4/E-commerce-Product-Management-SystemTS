@@ -36,3 +36,4 @@ blocks and placed errors where it would be most useful!
 6. [Creating an instance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
 7. [Review on Custom Errors](https://medium.com/@Nelsonalfonso/understanding-custom-errors-in-typescript-a-complete-guide-f47a1df9354c)
 8. [Asynchronus JS](https://www.youtube.com/watch?v=670f71LTWpM)
+9. [Connecting Front to Backend](https://www.youtube.com/watch?v=8PMLZ3hkKXM)
