@@ -37,3 +37,4 @@ blocks and placed errors where it would be most useful!
 7. [Review on Custom Errors](https://medium.com/@Nelsonalfonso/understanding-custom-errors-in-typescript-a-complete-guide-f47a1df9354c)
 8. [Asynchronus JS](https://www.youtube.com/watch?v=670f71LTWpM)
 9. [Connecting Front to Backend](https://www.youtube.com/watch?v=8PMLZ3hkKXM)
+10. [Medium article for connection](https://mdjamilkashemporosh.medium.com/connecting-the-backend-and-frontend-with-node-js-a-guide-to-secure-and-efficient-communication-3797d59599fb)
