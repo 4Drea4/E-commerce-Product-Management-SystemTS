@@ -8,12 +8,15 @@ async function main(){
     try{
         //getting data from the api 
         const apiProducts = await fetchProducts();
+
         // creating a new instance from product
         const testProduct = new Product(apiProducts[0]!);
+
         // testing error if negative price
         if (testProduct.price <0) {
             throw new ProductPriceError("Products can not be less than zero, sorry about that ");
         } 
+        
         //testing testTax
         const testTax = calculateTax(testProduct);
 
