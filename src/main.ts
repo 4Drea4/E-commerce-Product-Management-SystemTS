@@ -8,8 +8,13 @@ async function main(){
     try{
         //getting data from the api 
         const apiProducts = await fetchProducts();
-        // new instance
+        // creating a new instance from product
         const testProduct = new Product(apiProducts[0]!);
+        // testing error if negative price
+        if (testProduct.price <0) {
+            throw new ProductPriceError("Products can not be less than zero, sorry about that ");
+        } 
+        //testing testTax
         const testTax = calculateTax(testProduct);
 
     console.log(testProduct.displayDetails());
@@ -18,13 +23,8 @@ async function main(){
 
 } catch (error) {
 
-    if (testProduct.price <0) {
-        throw new ProductPriceError("Products can not be less than zero, sorry about that ");
-    }  else{
-        console.error("Uh oh Main file is not working", error)
-    }
-}
-}
+}}
+
 main();
 
 
