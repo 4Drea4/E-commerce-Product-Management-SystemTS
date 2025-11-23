@@ -1,3 +1,4 @@
+import { NetworkError } from "../utils/errorHandler.js";
 
   export interface apiProduct{
     id: number;
@@ -21,7 +22,7 @@
         const response = await fetch("https://dummyjson.com/products");//fetch api data
         // check for errors
     if(!response.ok){
-        throw new Error("Could not fetch product");
+        throw new NetworkError("Could not fetch product");
     }
     //parse json
     const data = await response.json(); // returns a promise so I use json

@@ -5,7 +5,7 @@ export class NetworkError extends Error {
     }
 }
 
-export class productPriceError extends Error {
+export class ProductPriceError extends Error {
     constructor(message: string) {
         super(message);
         this.name = "ProductPriceError";
