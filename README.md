@@ -38,3 +38,4 @@ blocks and placed errors where it would be most useful!
 8. [Asynchronus JS](https://www.youtube.com/watch?v=670f71LTWpM)
 9. [Connecting Front to Backend](https://www.youtube.com/watch?v=8PMLZ3hkKXM)
 10. [Medium article for connection](https://mdjamilkashemporosh.medium.com/connecting-the-backend-and-frontend-with-node-js-a-guide-to-secure-and-efficient-communication-3797d59599fb)
+11. [Dom Review](https://www.youtube.com/watch?v=y17RuWkWdn8)
