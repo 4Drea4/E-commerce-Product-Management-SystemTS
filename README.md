@@ -1,5 +1,6 @@
 # Ecommerce Platform
-## Andrea E! *Friday November 21<sup>st</sup> 2025*
+## Andrea E! 
+#### *Friday November 21<sup>st</sup> 2025*
 
 ### Index
 -[Technology Used](#technology-used)<br>
@@ -13,8 +14,8 @@ Using HTML,CSS, Javascript/ Typescript and an external API, I built an E-Commerc
 ###### Difficulties: 
  1. The first mistake I originally made was beginning without proper planning. I set up my project files and I sorted through the project scope and generalized what I would have done. I quickly realized before getting into the project to deeply I needed a more thorough plan especially when it came to working on the platform over the span of a few days. This shift allowed me to create an organized and thorough plan of completion. In a real world example this would be also beneficial if I were to be working on a team, because this means anyone could pick up on a piece of work and it have a better streamline of completion. 
 
-*How you implemented TypeScript features and OOP principles.*<br>
-2. I implemented typescript and it made understanding my project that much easier. It helps set expectations of input and outputs. Utilizing object oriented programming helped me store product data, transform raw data, and do things like calculate prices / discounts.
+2. *How you implemented TypeScript features and OOP principles.*<br>
+ I implemented typescript and it made understanding my project that much easier. It helps set expectations of input and outputs. Utilizing object oriented programming helped me store product data, transform raw data, and do things like calculate prices / discounts.
 
 3. *The challenges you encountered and how you overcame them.*<br>
 I faced several challenges as I was still getting the hang of typescript. Some of those issues included not getting outputs I desired when testing, and thinking something was wrong with my code despite it being a similiarly written method as another file that worked fine. This caused me on a few occaisions to go in fixing perfectly working code because I thought there was a bug somewhere because things were not outputting as expected just to later realize there was a calling or compiling issue. At the same time this made me be extremely careful and gave me more practice in debugging. In one particular issue I had tested discountCalculator within discountCalculator and assumed everything would output as expected. Come to remember I had only turned watch on main.ts so the file was not compiled when I attempted to test it. I also had some confusion on the placement of custom errors. I placed them in accordance to my last lab.
