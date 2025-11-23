@@ -22,7 +22,7 @@ async function main(){
     console.log("Tax amount of price: ",testTax);
 
 } catch (error) {
-
+    console.error("uh oh your main file is upset");
 }}
 
 main();
