@@ -20,6 +20,7 @@ I faced several challenges as I was still getting the hang of typescript. Some o
 -How you handled asynchronous operations and error management.
 
 
+
 #### Learning Resources
 
 1. [Fetching Data](https://www.youtube.com/watch?v=37vxWr0WgQk)
@@ -28,4 +29,5 @@ I faced several challenges as I was still getting the hang of typescript. Some o
 4. [OOP](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming)
 5. [Type Errors](https://stackoverflow.com/questions/56516615/how-to-fix-typeerror-fetchproducts-is-not-a-function)
 6. [Creating an innstance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
-7. 
+7. [Review on Custom Errors](https://medium.com/@Nelsonalfonso/understanding-custom-errors-in-typescript-a-complete-guide-f47a1df9354c)
+8. [Asynchronus JS](https://www.youtube.com/watch?v=670f71LTWpM)
