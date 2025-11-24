@@ -39,3 +39,4 @@ blocks and placed errors where it would be most useful!
 9. [Connecting Front to Backend](https://www.youtube.com/watch?v=8PMLZ3hkKXM)
 10. [Medium article for connection](https://mdjamilkashemporosh.medium.com/connecting-the-backend-and-frontend-with-node-js-a-guide-to-secure-and-efficient-communication-3797d59599fb)
 11. [Dom Review](https://www.youtube.com/watch?v=y17RuWkWdn8)
+12. [Frontend](https://stackoverflow.com/questions/72131940/how-can-i-display-api-data-in-an-html-list)
